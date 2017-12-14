@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Papr</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="styles/horizontal.css" />
+	
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" href="styles/ie.css">
+    <![endif]-->
+
+    <script type="text/javascript" src="scripts/html5shiv.js"></script>
+</head>
+<body>
+   
+   <nav class="section1">
+       <a href="#section1" class="backward">Previous</a>
+       <a href="#section2" class="forward">Next</a>
+   </nav>
+
+
+   <!-- Once again, we need  -->
+
+    <div class="horizontal">
+       <div class="table">
+           
+           <section id="section1">
+               <h1><a href="cubetest.html">Papr</a></h1>
+				<div class="circles">
+					<div class="1st"></div>
+					<div class="2nd"></div>
+					<div class="3rd"></div>
+				</div>
+               <p><img src="images/rex.svg"/></p>
+
+               <p><a href="begin.html"><span data-title="Beginner">Beginner</span></a></p>
+           </section>
+           
+           
+           <section id="section2">
+                 <h1><a href="cubetest.html">Papr</a></h1>
+				<div class="circles">
+					<div class="1st"></div>
+					<div class="2nd"></div>
+					<div class="3rd"></div>
+				</div>
+               <p><img src="images/phoenix.svg"/></p>
+
+               <p><a href="inter.html"><span data-title="Intermediate">Intermediate</span></a></p>
+           </section>
+           
+           
+           <section id="section3">
+
+               <div class="wrap">
+                   <header class="row">
+                       <div class="column">
+                             <h1><a href="cubetest.html">Papr</a></h1>
+				<div class="circles">
+					<div class="1st"></div>
+					<div class="2nd"></div>
+					<div class="3rd"></div>
+				</div>
+               <p><img src="images/bat.svg"/></p>
+
+               <p><a href="expert.html"><span data-title="Expert">Expert</span></a></p>
+                       </div>
+                   </header>
+                   
+                  <!-- <section class="row">
+                       <div class="column">Including other layouts.</div>
+
+                       <div class="column">Nifty.</div>
+                   </section>-->
+               </div>
+           </section>
+
+
+           
+           
+           
+           
+       </div>
+       
+</div>
+   
+   
+   
+   
+   
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/smoothscroll.js"></script>
+
+    
+    <script type="text/javascript">
+
+    // THIS IS THE IMPORTANT BIT
+
+    // Firefox goes a little haywire if you use percentage heights on the table cells. Creating pixel widths that update themselves when you resize the browser window fixes this.
+
+        $(window).load(function() {
+            var vWidth = $(window).width();
+            var vHeight = $(window).height();
+        
+            $('.table > section').css('width', vWidth).css('height', vHeight);
+        });
+        
+        $(window).resize(function() {
+            var vWidth = $(window).width();
+            var vHeight = $(window).height();
+        
+            $('.table > section').css('width', vWidth).css('height', vHeight);
+        });
+
+
+        // THIS IS JUST THE NAVIGATION.
+        
+        $(document).ready(function() {
+            
+            var url = 1;
+
+            $('a.forward').click(function () {
+                url = url+1;
+                $(this).attr({ href: '#section' + url });
+                
+                $(this).parent().attr({ class: 'section' + url });
+            });
+            
+            $('a.backward').click(function () {
+                url = url-1;
+                $(this).attr({ href: '#section' + url });
+                
+                $(this).parent().attr({ class: 'section' + url });
+            });
+            
+            
+            $('a.forward, a.backward').smoothScroll();
+            
+        });
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Papr </title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		
+	
+		
+		<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+		
+	
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<link href="styles/hover.css" rel="stylesheet" media="all">
+
+	
+		
+		<script src="scripts/main.js"></script>
+		<script src="scripts/background.js"></script>
+		 <script type='text/javascript' src="scripts/jquery.color-2.1.0.js"></script>
+		
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+
+	</head>
+	<body>
+			
+		<div id="wrapper"> <!--wrapper -->
+		
+			
+	
+
+  <section class="fullscreen background  page1Int" id="Home">
+    <div class="content-a">
+        <div class="content-b">
+           	<h1><a href="cubetest.html">Papr</a></h1>
+            	<div class="onepage-pageination"> 
+            		<ul id="nav">
+            			<li><a class="control-btn" href="#Home"><div class="circleSolid"><img src="images/dot.png" alt="Link" /></div></a></li>
+            			<li><a class="control-btn" href="#Page1"><div class="circleHollow"><img src="images/dot.png" alt="Link" /></div></a></a></li>
+            			<li><a class="control-btn" href="#Page2"><div class="circleHollow"><img src="images/dot.png" alt="Link" /></div></a></a></li>
+            		</ul>
+				</div> 
+				
+			
+				
+		
+				
+				
+		
+</section>
+
+ <section class="fullscreen background  page2Int" id="Page1" >
+    <div class="content-a">
+        <div class="content-b">
+           <h1><a href="cubetest.html">Papr</a></h1>
+            
+
+        </div>
+    </div>
+</section>
+
+   <section class="fullscreen background  page3Int" id="Page2">
+    <div class="content-a">
+        <div class="content-b">
+         <h1><a href="cubetest.html">Papr</a></h1>
+            
+
+        </div>
+    </div>
+</section>
+<!--<div class="not-fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg');" data-img-width="1600" data-img-height="1064">
+    <div class="content-a">
+        <div class="content-b">
+            Where
+        </div>
+    </div>
+</div>
+  
+<section class="not-fullscreen">
+    <div class="content-a">
+        <div class="content-b">
+            Centered content
+        </div>
+    </div>
+</section>
+
+<div class="fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_DSC_3274.jpg');background-position:100% 50%;" data-img-width="1600" data-img-height="1064">
+    <div class="content-a">
+        <div class="content-b">
+            Centered content
+        </div>
+    </div>
+</div>
+  
+<section class="fullscreen">
+    <div class="content-a">
+        <div class="content-b">
+            Centered content
+        </div>
+    </div>
+</section>
+  
+<div class="fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_9857.jpg');" data-img-width="1600" data-img-height="1064">
+    <div class="content-a">
+        <div class="content-b">
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br><br>
+        </div>
+    </div>
+</div>
+  
+<div class="not-fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_8697.jpg');" data-img-width="1600" data-img-height="1064">
+    <div class="content-a">
+        <div class="content-b">
+            Centered content
+        </div>
+    </div>
+</div>
+  
+<section class="fullscreen">
+    <div class="content-a">
+        <div class="content-b">
+            Centered content
+        </div>
+    </div>
+</section>
+  -->
+  
+<script type='text/javascript'>
+$(document).ready(function(){
+
+ $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 2000);
+        return false;
+      }
+    }
+  });
+}); 
+
+
+
+}); 
+
+/*
+//<![CDATA[ 
+$(window).load(function(){
+$(document).ready(function(){ 
+    //** notice we are including jquery and the color plugin at 
+    //** http://code.jquery.com/color/jquery.color-2.1.0.js
+    
+    var scroll_pos = 0;
+    var animation_begin_pos = 0; //where you want the animation to begin
+    var animation_end_pos = 1000; //where you want the animation to stop
+    var beginning_color = new $.Color( 'rgb(210,50,98)' ); //we can set this here, but it'd probably be better to get it from the CSS; for the example we're setting it here.
+    var ending_color = new $.Color( 'rgb(0,197,209)' ); ;//what color we want to use in the end
+    $(document).scroll(function() {
+        scroll_pos = $(this).scrollTop(); 
+        if(scroll_pos >= animation_begin_pos && scroll_pos <= animation_end_pos ) { 
+           // console.log( 'scrolling and animating' );
+            //we want to calculate the relevant transitional rgb value
+            var percentScrolled = scroll_pos / ( animation_end_pos - animation_begin_pos );
+            var newRed = beginning_color.red() + ( ( ending_color.red() - beginning_color.red() ) * percentScrolled );
+            var newGreen = beginning_color.green() + ( ( ending_color.green() - beginning_color.green() ) * percentScrolled );
+            var newBlue = beginning_color.blue() + ( ( ending_color.blue() - beginning_color.blue() ) * percentScrolled );
+            var newColor = new $.Color( newRed, newGreen, newBlue );
+            //console.log( newColor.red(), newColor.green(), newColor.blue() );
+            $('body').animate({ backgroundColor: newColor }, 0);
+        } else if ( scroll_pos > animation_end_pos ) {
+             $('body').animate({ backgroundColor: ending_color }, 0);
+        } else if ( scroll_pos < animation_begin_pos ) {
+             $('body').animate({ backgroundColor: beginning_color }, 0);
+        } else { }
+    });
+});
+});//]]>  */
+
+</script>
+	</body>
+</html>

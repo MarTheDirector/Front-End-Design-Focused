@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000;
+}
+
+
+@font-face {
+    font-family: 'sheandyregular';
+    src: url('fonts/sheandy_2-webfont.eot');
+    src: url('fonts/sheandy_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sheandy_2-webfont.woff2') format('woff2'),
+         url('fonts/sheandy_2-webfont.woff') format('woff'),
+         url('fonts/sheandy_2-webfont.ttf') format('truetype'),
+         url('fonts/sheandy_2-webfont.svg#sheandyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('fonts/sinkinsans-400regular-webfont.eot');
+    src: url('fonts/sinkinsans-400regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans-400regular-webfont.woff2') format('woff2'),
+         url('fonts/sinkinsans-400regular-webfont.woff') format('woff'),
+         url('fonts/sinkinsans-400regular-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans-400regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#title h1{
+	font-family: 'sheandyregular'; 
+	color: #ffffff; 
+	font-size: 10em;
+	
+	font-weight: 200;
+	margin-top: 150px
+	
+}
+
+
+
+
+#begin{ 
+	margin-top:150px
+	
+}
+
+.begin a{
+	
+	color: #ffffff; 
+	text-decoration: none;
+	font-family: 'sinkin_sans400_regular';
+}
+
+
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #e84b82;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: top;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+p a:hover span {
+  background: #e84b82;
+  -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+p a span {
+  display: block;
+  position: relative;
+  padding: 0 3px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+p a span:after {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 3px;
+  color: #fff;
+  background: #e84b82;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -ms-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+}
+
+
+.cube { 
+  height: 240px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+  margin-bottom:20px;
+  -webkit-transform-style: preserve-3d;
+}
+
+.cube-no-preserve {
+  height: 240px;
+  position: relative;
+  margin: 50px auto;
+  width: 240px;
+}
+
+.face {
+  background-color: rgb(50, 50, 50);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  height: 240px;
+  opacity: 0.7;
+  position: absolute;
+  width: 240px;
+}
+
+.one  {
+  background-color: rgb(242, 24, 25);
+  -webkit-transform: rotateX(90deg) translateZ(120px);
+}
+
+.two {
+  background-color: rgb(235, 41, 158);
+  -webkit-transform: translateZ(120px);
+}
+
+.three {
+  background-color: rgb(252, 209, 22);
+  -webkit-transform: rotateY(90deg) translateZ(120px);
+}
+
+.four {
+  background-color: rgb(44, 45, 213);
+  -webkit-transform: rotateY(180deg) translateZ(120px);
+}
+
+.five {
+  background-color: rgb(125, 105, 181);
+  -webkit-transform: rotateY(-90deg) translateZ(120px);
+}
+
+.cube .six {
+  background-color: rgb(22, 226, 38);
+  -webkit-transform: rotateX(-90deg) translateZ(120px) rotate(180deg);
+}
