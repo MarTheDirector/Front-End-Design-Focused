@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url(‘fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*background designing*/
+
+.container { 
+
+	margin:0 auto;
+	z-index:-10;
+
+}
+
+
+
+
+body{
+	
+    background:#E6F0EA;
+};
+
+#masthead {
+
+	position: fixed;
+	
+	
+}
+
+
+/* body elements */
+
+
+/*fixed navi*/
+
+#vertical-nav {
+     position: fixed;
+     
+     top: 0px; /* distance to the top of the menu div from the top of the page */
+     
+     width:300px; /* width of the menu div */
+     
+     height: 100%;
+     
+     margin: 0;
+     
+     padding: 5px;
+           
+     background: rgba(255,255,255, 0.8); /* Menu background color with opacity - delete if not required */
+}
+
+/* styling placement*/
+
+#home{
+
+	position: relative;
+
+    left: 500px;
+	
+	top: 180px;
+	
+	z-index: -500;
+}
+
+
+
+
+
+
+
+.gallerybox{
+
+	position: relative;
+
+    left: 500px;
+	
+	top: 305px;
+	
+	z-index: -500;
+}
+
+
+.underbox{
+
+	position: relative;
+
+    left: 480px;
+	
+	top: 305px;
+	
+	z-index: -500;
+}
+
+
+
+#b1{
+
+	position: relative;
+
+    left: 310px;
+	
+	
+}
+
+#b2{
+
+	position: relative;
+	
+	top:300px;
+    right: 1094px;
+	
+	
+}
+
+
+#b3{
+
+	position: relative;
+	
+	top:300px;
+    right: 1098px;
+	
+	
+}
+
+#b4{
+
+	position: relative;
+	
+	bottom:-170px;
+    left:310px;
+	
+	
+}
+
+.albumselect{
+	position: absolute;
+
+    left: 1000px;
+	
+	bottom: 0px;
+}
+
+
+
+/* styling for navigation text */
+
+#logo{
+	position: fixed;
+	
+	left:-15px;
+	
+}
+
+
+#booking{
+	
+	position: fixed;
+	right:120px;
+	top: 120px;
+}
+
+
+#backtoalbums{
+	
+	position: fixed;
+	right:120px;
+	top: 120px;
+}
+
+
+#navMain {
+
+	position: fixed;
+	
+	left: 0px;
+	
+	top: 270px;
+	
+	
+}
+nav li{
+
+	text-align:left;
+	list-style:none;
+	
+	
+	}
+
+nav li a{
+	
+	
+	
+	margin: 15px;
+	
+	padding: 10px;
+	
+	display:block;
+	
+ 	text-align: justify;
+ 	
+	font-family: 'open_sanslight';
+
+	font-size:60px;
+
+	/*text-transform: uppercase;*/
+
+	text-decoration: none; 
+
+	color: #969B9F;
+
+	}
+
+nav li a:hover {
+
+	color: #5B87A5;
+	width:160px;
+
+}
+
+
+.onarea{
+	color: #5B87A5;
+	width:160px;
+}
+
+.offarea{
+	color: #969B9F;
+
+}
+
+nav li:hover ul {
+	
+	position: fixed;
+	
+	left: -10px;
+	
+	top: 500px;
+	
+	background: rgba(2, 3, 3, 1.0);
+
+	 width:280px;
+	 
+	 display:block;
+
+
+}
+
+
+
+nav li ul {
+
+ display:none;
+ 
+}
+
+nav li ul a {
+
+	font-size: 30px;
+
+}
+
+
+/*horizontal test*/
+
+
+.horizon
+{
+    line-height: 0;
+    z-index: -100;
+    width: 3000px;
+}
+
+.middle
+{
+    z-index: -250;
+    line-height: 0;
+    width: 4500px;
+}
+
+.front
+{
+    z-index: -500;
+    top: 150px;
+    width: 6000px;
+}
+
+.intro
+{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    padding-right: 50px;
+}
+
+.page
+{
+    top: 0px;
+    width: 500px;
+    padding: 10px 30px;
+   
+    position: absolute;
+}
+
+.panel1
+{
+	z-index: -500;
+    left: 1500px;
+}
+
+.panel2
+{
+	z-index: -500;
+    left: 2575px;
+}
+
+.panel3
+{
+	z-index: -500;
+    left: 3800px;
+}
+
+.panel4
+{
+	z-index: -500;
+    left: 5100px;
+}
+
