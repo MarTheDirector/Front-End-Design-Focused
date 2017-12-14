@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Toast for All | Futuristic Toasters</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<script src="scripts/jquery-1.10.2.js"></script>
+		<script src="scripts/jquery-ui.js"></script>
+		<script src="scripts/main.js"></script>		
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--<script type='text/javascript' src='scripts/respond.min.js'></script>-->
+		<link href='http://fonts.googleapis.com/css?family=Fredoka+One|Architects+Daughter|Coming+Soon' rel='stylesheet' type='text/css'>
+				<link rel="shortcut icon" href="favicon.ico" >
+	
+		<script>
+		$(function() {
+			 $( ".optionb" ).hide();
+			 $( ".optionc" ).hide();
+			 
+			 
+						 
+			$( "#item1" ).click(function() {
+				$( ".optionb" ).hide();
+				$( ".optionc" ).hide();
+			  $( ".optiona" ).show();
+			});
+			
+			$( "#item2" ).click(function() {
+				$( ".optiona" ).hide();
+				$( ".optionc" ).hide();
+			  $( ".optionb" ).show();
+			});
+			
+			$( "#item3" ).click(function() {
+				$( ".optiona" ).hide();
+				$( ".optionb" ).hide();
+			  $( ".optionc" ).show();
+			});
+
+
+		  $( ".optiona" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+		  $( ".tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+		});
+				
+		
+		</script>
+		
+		
+		
+			<script>
+		document.getElementByClass('changecolor').style.color = "#0000ff";
+		alert(document.getElementById("item1").style.color);
+		
+			</script>
+		
+		
+		
+	</head>
+	<body>
+	
+		<div id="wrapper">
+		
+			<header>
+<!--				<nav id="skipTo">
+					<ul>
+						<li><a href="#main"> Skip to main content </a></li>
+					</ul>
+				</nav>-->
+				
+<!--				<h1>Welcome to Toast for All</h1>-->
+				
+				</header>	
+							
+				<div class="mainimg image">
+				
+				<div class="toastercontainer">
+					<a href="index.html"><img class="logo" src="images/logo2.gif" alt="ToastForAllLogo"></a>
+					
+					<img class="maintoaster toaster" src= "images/toasterb.png">
+					
+					<nav>
+						<ul>
+							<li><a class="nav1" href="useshazardsandcare.html" title="home">Uses, Hazards, <br/ > and Care</a></li>
+							<li><a class="yellow" href="specialtoasters.html" title="about">Special Toasters</a></li>
+							<li><a class="nav3" href="insideatoaster.html" title="work">Inside a Toaster</a></li>
+							
+						</ul>
+					</nav>	
+
+					<div class="navknob">		
+					
+					<a class="imgswap knob1" href="useshazardsandcare.html">
+					    <img src="images/knob1.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+					<a class="imgswap knob2" href="specialtoasters.html">
+					    <img src="images/knob2.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+					<a class="imgswap knob3" href="insideatoaster.html">
+					    <img src="images/knob3.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+												
+					</div>
+
+					
+					<div class="contentcontainer">
+					
+					
+									
+									<div class="content c3 noheight">
+									
+											<h1 class="h3color2">Special Toasters</h1>
+																					
+												<ul class="secondnav">
+												
+												
+												<li><a class=""  href="types.html">Types</a></li>
+												<li><a href="designs.html">Designs</a></li>													
+												<li><a class="current" href="futuristic.html">Futuristic</a></li>
+												
+												
+												</ul>
+												
+												
+										</div>										
+							
+										<div class="content c1">
+																			
+													<p>
+													<img src="images/notepadtoaster.gif" class="photo optiona" alt="pictureofatoaster">													
+													</p>
+													<p>
+													<img src="images/portabletoaster.gif" class="photo optionb" alt="pictureofatoaster">													
+													</p>
+													<p>
+													<img src="images/rollertoaster.gif" class="photo optionc" alt="pictureofatoaster">													
+													</p>
+										
+										</div>
+										
+										<div class="content c2">
+										
+										<h2 class="h3color">Futuristic Toasters</h2>
+										
+										
+										<ul class="tabs list1">
+										<li class="changecolor" id="item1">Notepad Toaster</li>
+										<li class="changecolor" id="item2">Portable Toaster</li>
+										<li class="changecolor" id="item3">ROLLER Toaster</li>
+										</ul>
+										
+							
+										
+													<p class="optiona smallertext">
+													<span class="pink">Notepad Toaster</span>- Nothing says you love somebody quite like writing it out on toasted bread. The Notepad Toaster lets you write customizable message on the top and then those messages are toasted into the bread.
+													</p>	
+													
+													<p class="optionb smallertext">
+													<span class="pink">Portable Toaster</span>- This handheld toaster works like a heated knife. Simply pass the portable toaster over the top of your toast and watch it brown before your eyes. A graphic interface on the back of the toaster changes as the toasts browns, letting you know how well the bread is toasted.
+													</p>		
+													<p class="optionc smallertext">
+													<span class="pink">ROLLER Toaster</span>- The ROLLERtoaster is the winner of the 2006 Red Dot Award, given out for achievements in design. Jaren Goh of Singapore created this compact toasting wonder. You insert the bread into one side of the toaster, and it rolls through the toaster to come out toasted on the other side.
+													</p>					
+		
+												
+												</div>					
+					
+					
+						</div>
+					
+					</div>
+								
+				
+
+					
+				
+					
+					</div>
+		
+
+
+
+
+
+		
+	
+		</div>
+		
+
+		
+	</body>
+</html>

@@ -1,0 +1,251 @@
+.toastercontainer{
+position: relative;
+bottom: 720px;
+}
+
+.toasttoaster{
+	width: 60%;
+	position: relative;
+	left: 100px;
+	bottom: 20px;
+}
+
+.transtoaster{
+	position: relative;
+	bottom: 10px;
+	right: 9px;
+}
+
+
+.heatingelement{
+	width: 60%;
+	position: relative;
+	right: 130px;
+	top: 280px;
+	
+}
+
+.logo{
+	position: relative;
+	top: 20px;
+/*	right: 10px;*/
+}
+
+.toasttoaster img {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.spring{
+	width: 8%;
+	position: relative;
+	right: 130px;
+	top: 575px;	
+	
+}
+
+#pos1{
+	position: absolute;
+	top: 150px;
+}
+
+#pos2{
+	position: absolute;
+	top: 20px	;
+left: 380px;
+}
+
+#pos3{
+	position: absolute;
+top: 150px;
+left: 380px;
+z-index: 10;
+}
+
+#pos4{
+	position: absolute;
+	top: 210px;
+	left: 300px;
+}
+
+
+.pos5{
+position: absolute;
+top: 240px;
+left: 25px;
+	z-index: -1;
+	
+}
+
+
+.pos6{
+	position: absolute;
+	top: 70px;
+left: 530px;
+z-index: -1;
+	
+}
+
+.pos7{
+	position: absolute;
+top: 150px;
+left: 530px;
+z-index: -1;
+
+	
+}
+
+.pos8{
+position: absolute;
+top: 265px;
+left: 445px;
+z-index: -1;
+
+	
+}
+
+.infobox{
+	background-color: white;
+	width: 25%;
+	padding: 3%;
+	border-radius: 25px;
+	font-family: 'Architects Daughter', "Helvetica", sans-serif;
+	text-align: center;
+}
+
+.infobox:hover{
+	    outline: none;
+	    border-color: #9ecaed;
+	    box-shadow: 0 0 10px #e28989;
+}
+
+.description{
+		font-family: 'Architects Daughter', "Helvetica", sans-serif;
+		font-size: .6em;
+}
+
+.green{
+	color: #46d57c;
+}
+
+.blue{
+	color: #4685d4;
+}
+
+.orange{
+	color: #f8a61b;
+}
+
+.purple{
+	color: #cf46d4;
+}
+
+
+.nobackgroundcolor{
+	background-color: transparent;
+}
+
+.content{
+	position: relative;
+	bottom: 10px;
+}
+
+.fallbacklist{
+	display: none;
+}	
+	
+
+/* Media Queries Tablet*/
+@media screen and (min-width : 1px) and (max-width: 960px) {
+	
+	.fallbacklist{
+		display: block;
+	
+		font-family: 'Architects Daughter', "Helvetica", sans-serif;
+		
+	}	
+	
+	
+	.infobox{
+		display: none;
+	}
+		
+	.heatingelement{
+		display: none;
+	}	
+
+	.spring{
+		display: none;
+	}
+	.nobackgroundcolor{
+		background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+		                                support rgba */
+		background: rgba(255, 255, 255, .5);	
+	}
+	
+}
+
+/* Media Queries Phone*/
+@media screen and (max-width: 480px) {
+
+/* Says when Media screen (phone) has a max width of 480, (phone screen size) apply these characteristics below */
+
+.toasttoaster{
+	display: none;
+}
+
+
+}
+
+/* Media Queries Tablet*/
+@media screen and (min-width : 481px) and (max-width: 960px) {
+	
+		
+		
+.content {
+	height: auto;
+	position: relative;
+	top: 10%;
+	margin-left: 3%;
+/*	left: 5%;*/
+	float: left;
+	overflow: scroll;
+}	
+
+.c1{
+	width: 100%;
+	margin-top: 5%;
+}
+
+.c2{
+	width: 100%;
+	position: relative;
+	margin-top: 5%;
+
+/*	left: 50%;*/
+	
+}
+
+nav li {
+font-size: 1em;
+	}
+
+.contentcontainer{
+	margin-top: -35%;
+}
+
+.navknob{
+	margin-top: -30%;
+}
+
+.photo{
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+}
+
+

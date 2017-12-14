@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Toast for All | Types</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<script src="scripts/jquery-1.10.2.js"></script>
+		<script src="scripts/jquery-ui.js"></script>
+		<script src="scripts/main.js"></script>		
+		<script src="scripts/listchanges.js"></script>		
+		
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--<script type='text/javascript' src='scripts/respond.min.js'></script>-->
+		<link href='http://fonts.googleapis.com/css?family=Fredoka+One|Architects+Daughter|Coming+Soon' rel='stylesheet' type='text/css'>
+				<link rel="shortcut icon" href="favicon.ico" >
+		
+		<script>
+		$(function() {
+			 $( ".optionb" ).hide();
+			 $( ".optionc" ).hide();
+			 $( ".optiond" ).hide();
+			 
+			 
+						 
+			$( "#item1" ).click(function() {
+				$( ".optionb" ).hide();
+				$( ".optionc" ).hide();
+				$( ".optiond" ).hide();
+			  $( ".optiona" ).show();
+			});
+			
+			$( "#item2" ).click(function() {
+				$( ".optiona" ).hide();
+				$( ".optionc" ).hide();
+				$( ".optiond" ).hide();
+			  $( ".optionb" ).show();
+			});
+			
+			$( "#item3" ).click(function() {
+				$( ".optiona" ).hide();
+				$( ".optionb" ).hide();
+				$( ".optiond" ).hide();
+			  $( ".optionc" ).show();
+			});
+			
+
+			$( "#item4" ).click(function() {
+				$( ".optiona" ).hide();
+				$( ".optionb" ).hide();
+				$( ".optionc" ).hide();
+			  $( ".optiond" ).show();
+			});
+			
+			
+			
+		});
+				
+		
+		</script>
+	
+	
+		
+<!--<script>
+$(function(){
+     $("li.changecolor").hover(function(){
+          $("li.changecolor").addClass(".pink");
+      }, function(){
+          $("li.changecolor").removeClass(".pink");
+      });
+
+      $("li.changecolor").click(function(){
+           $("li.changecolor").addClass(".pinkstay");
+      });
+
+$("li.changecolor").click(function(){
+     $("li.changecolor").removeClass(".pinkstay");
+     $("li.changecolor").addClass(".pinkstay");
+		});
+
+});
+</script>-->		
+		
+		
+		
+		
+	</head>
+	<body>
+		
+		<div id="wrapper">
+		
+			<header>
+<!--				<nav id="skipTo">
+					<ul>
+						<li><a href="#main"> Skip to main content </a></li>
+					</ul>
+				</nav>-->
+				
+<!--				<h1>Welcome to Toast for All</h1>-->
+				
+				</header>	
+							
+				<div class="mainimg image">
+				
+				<div class="toastercontainer">
+					<a href="index.html"><img class="logo" src="images/logo2.gif" alt="ToastForAllLogo"></a>
+					
+					<img class="maintoaster toaster" src= "images/toasterb.png">
+					
+					<nav>
+						<ul>
+							<li><a class="nav1" href="useshazardsandcare.html" title="home">Uses, Hazards, <br/ > and Care</a></li>
+							<li><a class="yellow" href="specialtoasters.html" title="about">Special Toasters</a></li>
+							<li><a class="nav3" href="insideatoaster.html" title="work">Inside a Toaster</a></li>
+							
+						</ul>
+					</nav>	
+
+					<div class="navknob">		
+					
+					<a class="imgswap knob1" href="useshazardsandcare.html">
+					    <img src="images/knob1.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+					<a class="imgswap knob2" href="specialtoasters.html">
+					    <img src="images/knob2.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+					<a class="imgswap knob3" href="insideatoaster.html">
+					    <img src="images/knob3.png" />
+					    <img src="images/turntknob1.gif" />
+					</a>
+					
+												
+					</div>
+
+					
+					<div class="contentcontainer">
+					
+					
+									
+									<div class="content c3 noheight">
+									
+											<h1 class="h3color2">Special Toasters</h1>
+																					
+												<ul class="secondnav">
+												
+												
+												<li><a class="current"  href="types.html">Types</a></li>
+												<li><a href="designs.html">Designs</a></li>													
+												<li><a class="" href="futuristic.html">Futuristic</a></li>
+												
+												
+												</ul>
+												
+												
+										</div>										
+							
+										<div class="content c1">
+																			
+													<p>
+													<img src="images/toasteroven.gif" class="photo optiona" alt="pictureofatoaster">													
+													</p>
+													<p>
+													<img src="images/eggcooker.gif" class="photo optionb" alt="pictureofatoaster">													
+													</p>
+													<p>
+													<img src="images/sixslot.gif" class="photo optionc" alt="pictureofatoaster">													
+													</p>
+													
+													<p>
+													<img src="images/conveyor.gif" class="photo optiond" alt="pictureofatoaster">													
+													</p>													
+										
+										</div>
+										
+										<div class="content c2">
+										
+										<h2 class="h3color">Types of Toasters</h2>
+										
+										
+										<ul class="tabs list1">
+										<li class="changecolor" id="item1">Toaster Ovens</li>
+										<li class="changecolor" id="item2">Egg Cooker Toasters</li>
+										<li class="changecolor" id="item3">Multiple Slot Toasters</li>
+										<li class="changecolor" id="item4">Conveyer Toaster</li>
+										</ul>
+										
+
+
+							
+										
+													<p class="optiona smallertext">
+													<span class="pink">Toaster Ovens</span>- Toaster ovens are a common staple to many homes. Like a combination between an oven and a toaster, not only can toaster ovens toast your bread to a nice crisp, but can also make small pizzas and fries.
+													</p>	
+													
+													<p class="optionb smallertext">
+													<span class="pink">Egg Cooker Toasters</span>- Put the egg inside the small cooker on the side and watch your entire breakfast cook right before your eyes! Your eggs will be sunny side up and super delicious.
+													</p>		
+													<p class="optionc smallertext">
+													<span class="pink">Multiple Slot Toasters</span>- A typical toaster comes with 2 slots for 2 slices of bread, but the 4 slot toaster is becoming increasingly popular. The 6 slot toaster, pictured here, toasts 6 slices of bread at once. The 8 slot toaster is difficult to come by, but when you do, it is expensive.
+													</p>		
+													
+													<p class="optiond smallertext">
+										<span class="pink">Conveyor Toaster</span>- Suitable for making a ton of toast in a short amount of time. The bread goes across the conveyor belt, and the heating elements cook both sides of the bread.
+													</p>						
+		
+												
+												</div>					
+					
+					
+						</div>
+					
+					</div>
+								
+				
+
+					
+				
+					
+					</div>
+		
+
+
+
+
+
+		
+	
+		</div>
+		
+
+		
+	</body>
+</html>
