@@ -1,0 +1,445 @@
+@font-face {
+    font-family: 'aovel_sansrounded';
+    src: url('fonts/asansrounded-webfont.eot');
+    src: url('fonts/asansrounded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/asansrounded-webfont.woff') format('woff'),
+         url('fonts/asansrounded-webfont.ttf') format('truetype'),
+         url('fonts/asansrounded-webfont.svg#aovel_sansrounded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'patinio_iagency_roundedRg';
+    src: url('fonts/patinio_iagency_rounded-webfont.eot');
+    src: url('fonts/patinio_iagency_rounded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/patinio_iagency_rounded-webfont.woff') format('woff'),
+         url('fonts/patinio_iagency_rounded-webfont.ttf') format('truetype'),
+         url('fonts/patinio_iagency_rounded-webfont.svg#patinio_iagency_roundedRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'patinio_iagencyregular';
+    src: url('fonts/patinio_iagency-webfont.eot');
+    src: url('fonts/patinio_iagency-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/patinio_iagency-webfont.woff') format('woff'),
+         url('fonts/patinio_iagency-webfont.ttf') format('truetype'),
+         url('fonts/patinio_iagency-webfont.svg#patinio_iagencyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roundregular';
+    src: url('fonts/round_regular-webfont.eot');
+    src: url('fonts/round_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/round_regular-webfont.woff') format('woff'),
+         url('fonts/round_regular-webfont.ttf') format('truetype'),
+         url('fonts/round_regular-webfont.svg#roundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roundregular';
+    src: url('fonts/rounded-webfont.eot');
+    src: url('fonts/rounded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rounded-webfont.woff') format('woff'),
+         url('fonts/rounded-webfont.ttf') format('truetype'),
+         url('fonts/rounded-webfont.svg#roundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'roundyregular';
+    src: url('fonts/roundy_font_v1-webfont.eot');
+    src: url('fonts/roundy_font_v1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roundy_font_v1-webfont.woff') format('woff'),
+         url('fonts/roundy_font_v1-webfont.ttf') format('truetype'),
+         url('fonts/roundy_font_v1-webfont.svg#roundyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'squaretype_bregular';
+    src: url('fonts/squaretype_b-webfont.eot');
+    src: url('fonts/squaretype_b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/squaretype_b-webfont.woff') format('woff'),
+         url('fonts/squaretype_b-webfont.ttf') format('truetype'),
+         url('fonts/squaretype_b-webfont.svg#squaretype_bregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*background designing*/
+.container { 
+	margin:0 auto;
+}
+body {
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+body p {
+	text-align: justify;
+}
+
+body h1 {
+	font-family: 'roundregular';
+	font-size: 48px;
+	
+	letter-spacing:3px;
+}
+
+#masthead {
+	background:#BC2626;
+	width:960px;
+	height:104px;
+	text-align:center;
+}
+#masthead h1{
+	font-family: 'patinio_iagencyregular';
+	font-size:90px;
+	color:#FFF;
+	margin-top:auto;
+	text-transform: uppercase;
+}
+.pagetell {
+	font-family: 'squaretype_bregular';
+	font-size:100px;
+	color:#FFF;
+	margin-top:auto;
+	
+	text-align: center;
+}
+
+#zebarticle {
+	line-height:120%;
+	height: 300px;
+	margin: 15px;
+}
+#zebsection {
+	margin-top:-36px;
+	background:#222222;
+}
+#zeb1 { 
+	
+	background:#222222;
+	height: 299px;
+}
+
+#zebdude {
+	margin-top:-36px;
+	margin-left:-1px;
+}
+#zebgirl {
+	margin-top:-36px;
+}
+#zebtlk p {
+	width: 360px;
+	margin-left: 60px;
+	margin-top:-20px;
+	line-height:120%;
+}
+#zebtlk h1 {
+	margin-left: 80px;
+	margin-top:-10px;
+}
+#peasection {
+	margin-top:-36px;
+}
+
+#peacontent{
+	width: 651px;
+}
+#make{
+	width:310px;
+	
+	}
+#peamag {
+	
+	margin-top:-36px;
+}
+#peaeyeshaw{
+	margin-left: 510px;
+	margin-top:-378px;
+}
+#polsec{
+	background:#A8C0DC;
+	margin-top:-36px;
+	height: 704px;
+}
+#polart { 
+	width:304px;
+	height:300px;
+	margin-top: -5px;
+	margin-left: 5px;
+	line-height:120%;
+}
+#polart h1{
+	margin-left: 80px;
+}
+#polpic{
+	margin-top:-343px;
+	margin-left: 310px;
+	
+	width:651px;
+}
+#polcloth{
+	margin-top:-20px;
+}
+#polbreak{
+	margin-top:-343px;
+	margin-left: 310px;
+	line-height:120%;
+}
+#headapp{
+	height: 351px;
+	
+}
+#headapp h1{
+	font-size: 58px;
+	margin-top: 100px;
+	letter-spacing:3px;
+}
+#bodyapp{
+	margin-top:-390px;
+	margin-left: 295px;
+}
+#bodyp2{ 
+	margin-top:-140px;
+}
+#chesec{
+	background:#F9A03C;
+	
+	height: 704px;
+}
+#cheart { 
+	width:304px;
+	height:300px;
+	margin-top: -5px;
+	margin-left: 5px;
+	line-height:120%;
+}
+#cheart h1{
+	margin-left: 30px;
+}
+#chepic{
+	margin-top:-343px;
+	margin-left: 310px;
+	
+	width:651px;
+}
+#chemag{
+	margin-top:-20px;
+}
+#chebreak{
+	margin-top:-343px;
+	margin-left: 310px;
+	line-height:120%;
+}
+#cheheadapp{
+	height: 351px;
+	
+}
+#cheheadapp h1{
+	font-size: 58px;
+	margin-top: 100px;
+	letter-spacing:3px;
+}
+#chebodyapp{
+	margin-top:-390px;
+	margin-left: 295px;
+}
+#chebodyp2{ 
+	margin-top:-140px;
+}
+#wisdomsec{
+	background:#222222;
+	margin-top: -20px;
+	height: 704px;
+}
+#dessec{
+	background:#F9A03C;
+	margin-top: -20px;
+	height: 704 px;
+}
+#shopsec{
+	background:#A8C0DC;
+	margin-top: -20px;
+	height: 704 px;
+}
+#furrsec{
+	background:#BC2928;
+	margin-top: -20px;
+	height: 704 px;
+}
+#spiritrsec{
+	background:#A8C0DC;
+	margin-top: -20px;
+	height: 704 px;
+}
+
+#wisdomart { 
+	width:304px;
+	height:300px;
+	margin-top: -5px;
+	margin-left: 5px;
+	line-height:120%;
+}
+#wisdomart h1{
+	margin-left: 30px;
+}
+#wisdompic{
+	margin-top:-343px;
+	margin-left: 310px;
+	
+	width:651px;
+}
+#wisdomside{
+	margin-top:-20px;
+	width:310px;
+	height: 350px;
+}
+#wisdombreak{
+	margin-top:-343px;
+	margin-left: 310px;
+	line-height:120%;
+}
+#wisdomheadapp{
+	height: 351px;
+	
+}
+#wisdomheadapp h1{
+	font-size: 58px;
+	margin-top: 100px;
+	letter-spacing:3px;
+}
+#wisdombodyapp{
+	margin-top:-390px;
+	margin-left: 295px;
+}
+#wisdombodyp2{ 
+	margin-top:-140px;
+}
+footer{
+	margin-top:-17px;
+}
+#fb{
+	margin-top:40px;
+	margin-left:60px;
+}
+#twitter{
+	margin-top:48px;
+	margin-left:30px;
+}
+#vine{
+	margin-top:10px;
+	margin-left:30px;
+}
+#youtube{
+	margin-top:30px;
+	margin-left:30px;
+}	
+/*image hovering*/
+#hovcontzeb {
+	width: 651px;
+}
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover h3 {font-family: 'roundregular';
+	font-size: 48px;
+	
+	letter-spacing:3px;}
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+
+/* styling for navigation text */
+
+#navmain {
+			height: 50px;
+			width: 960px;
+			
+		}
+nav li{
+	list-style:none;
+	float:left;}
+nav li a{
+	display:block;
+	padding: 15px;
+	font-family: 'patinio_iagencyregular';
+	font-size:30px;
+	text-transform: uppercase;
+	text-decoration: none; 
+	color: #FFFFFF;
+	}
+nav li a:hover {
+	color: #BC2928;
+}
+nav li ul{
+	display: none;
+}
+nav li:hover  ul li a {
+	color: #75767A;
+	font-family: 'squaretype_bregular';
+	text-transform:lowercase;
+	padding: 30px;
+}
+nav li:hover ul {
+	background: rgba(2, 3, 3, 0.8);
+	
+}
+nav li:hover ul li:hover a {
+	background: #BC2928;
+	
+}
+nav li:hover ul, nav li.hover ul {
+	position:absolute;
+	display: inline;
+	left: 0;
+	width:110%;
+	margin:0;
+	padding:0;
+	-webkit-transition-property: background;
+-webkit-transition-duration: 1s, 1s;
+-webkit-transition-timing-function: linear, ease-in;
+-moz-transition-property:background;
+-moz-transition-duration:1s;
+-moz-transition-timing-function: linear, ease-in;
+
+-o-transition-property:background;
+-o-transition-duration:1s;
+-o-transition-timing-function: linear, ease-in
+
+}
+nav li:hover li, nav li.hover li{
+	float:left;
+}
+nav li:hover li a, nav li.hover li a{
+	color:#BC2928;
+}
+nav li li a:hover{
+	color:#357;}

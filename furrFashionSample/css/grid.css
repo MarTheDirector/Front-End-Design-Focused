@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	position: relative;
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+.container .column{
+	float:left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	align: center;
+}
+
+/* Nested Columns */
+.column.noleft {
+	margin-left: 0;
+}
+.column.noright {
+	margin-right: 0;
+}
+
+
+/* Grid */
+.container .one.column		{ width: 40px;}
+.container .two.column		{ width: 100px;}
+.container .three.column 	{ width: 160px;}
+.container .four.column 	{ width: 220px;}
+.container .five.column 	{ width: 280px;}
+.container .six.column		{ width: 340px;}
+.container .seven.column 	{ width: 400px;}
+.container .eight.column 	{ width: 460px;}
+.container .nine.column 	{ width: 520px;}
+.container .ten.column		{ width: 580px;}
+.container .eleven.column 	{ width: 640px;}
+.container .twelve.column 	{ width: 700px;}
+.container .thirteen.column	{ width: 760px;}
+.container .fourteen.column	{ width: 820px;}
+.container .fifteen.column	{ width: 880px;}
+.container .sixteen.column	{ width: 940px;}
+.container .sixteenplus.column	{ width: 960px;}
+
+/* Add Space (push) before a column. NOT Nested*/
+.container .push-one		{ margin-left: 70px;}
+.container .push-onehalf		{ margin-left: 85px;}
+.container .push-onemore		{ margin-left: 100px;}
+.container .push-onemspe		{ margin-left: 21px;}
+.container .push-two		{ margin-left: 130px;}
+.container .push-three		{ margin-left: 190px;}
+.container .push-four 		{ margin-left: 250px;}
+.container .push-five 		{ margin-left: 310px;}
+.container .push-six		{ margin-left: 370px;}
+.container .push-seven 		{ margin-left: 430px;}
+.container .push-eight 		{ margin-left: 490px;}
+.container .push-nine 		{ margin-left: 550px;}
+.container .push-ten		{ margin-left: 610px;}
+.container .push-eleven 	{ margin-left: 670px;}
+.container .push-twelve 	{ margin-left: 730px;}
+.container .push-thirteen	{ margin-left: 790px;}
+.container .push-fourteen	{ margin-left: 850px;}
+.container .push-fifteen	{ margin-left: 910px;}
+
+/* Add Space (push) before a column. NESTED*/
+.container .push-one.noleft			{ margin-left: 60px;}
+.container .push-two.noleft			{ margin-left: 120px;}
+.container .push-three.noleft		{ margin-left: 180px;}
+.container .push-four.noleft 		{ margin-left: 240px;}
+.container .push-five.noleft 		{ margin-left: 300px;}
+.container .push-six.noleft			{ margin-left: 360px;}
+.container .push-seven.noleft		{ margin-left: 420px;}
+.container .push-eight.noleft 		{ margin-left: 480px;}
+.container .push-nine.noleft 		{ margin-left: 540px;}
+.container .push-ten.noleft			{ margin-left: 600px;}
+.container .push-eleven.noleft 		{ margin-left: 660px;}
+.container .push-twelve.noleft 		{ margin-left: 720px;}
+.container .push-thirteen.noleft	{ margin-left: 780px;}
+.container .push-fourteen.noleft	{ margin-left: 840px;}
+.container .push-fifteen.noleft		{ margin-left: 900px;}
+
+/* Add Space (append) after a column NOT nested */
+.container .append-one		{ margin-right: 70px;}
+.container .append-two		{ margin-right: 130px;}
+.container .append-three	{ margin-right: 190px;}
+.container .append-four 	{ margin-right: 250px;}
+.container .append-five 	{ margin-right: 280px;}
+.container .append-six		{ margin-right: 370px;}
+.container .append-seven 	{ margin-right: 430px;}
+.container .append-eight 	{ margin-right: 490px;}
+.container .append-nine 	{ margin-right: 550px;}
+.container .append-ten		{ margin-right: 610px;}
+.container .append-eleven 	{ margin-right: 670px;}
+.container .append-twelve 	{ margin-right: 730px;}
+.container .append-thirteen	{ margin-right: 790px;}
+.container .append-fourteen	{ margin-right: 850px;}
+.container .append-fifteen	{ margin-right: 910px;}
+
+/* Add Space (append) after a column NESTED */
+.container .append-one.noright		{ margin-right: 60px;}
+.container .append-two.noright		{ margin-right: 120px;}
+.container .append-three.noright	{ margin-right: 180px;}
+.container .append-four.noright 	{ margin-right: 240px;}
+.container .append-five.noright 	{ margin-right: 270px;}
+.container .append-six.noright		{ margin-right: 360px;}
+.container .append-seven.noright 	{ margin-right: 420px;}
+.container .append-eight.noright 	{ margin-right: 480px;}
+.container .append-nine.noright 	{ margin-right: 540px;}
+.container .append-ten.noright		{ margin-right: 600px;}
+.container .append-eleven.noright 	{ margin-right: 660px;}
+.container .append-twelve.noright 	{ margin-right: 720px;}
+.container .append-thirteen.noright	{ margin-right: 780px;}
+.container .append-fourteen.noright	{ margin-right: 840px;}
+.container .append-fifteen.noright	{ margin-right: 900px;}
+
+/* Clearing: This rule inserts a character after the container to expand the containing div. */
+
+.container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Use this clear class on Break elements */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

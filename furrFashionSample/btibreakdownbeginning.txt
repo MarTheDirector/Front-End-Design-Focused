@@ -1,0 +1,164 @@
+function playAudio(_0x1bf6x2) {
+    var _0x1bf6x3 = window[_0xe7d4[0]][_0x1bf6x2];
+    if (_0x1bf6x3) {
+        if (!_0x1bf6x3[_0xe7d4[1]]) {
+            _0x1bf6x3[_0xe7d4[2]]();
+        } else {
+            _0x1bf6x3[_0xe7d4[3]]();
+        };
+    };
+};
+
+function restartAudio(_0x1bf6x2) {
+    var _0x1bf6x3 = window[_0xe7d4[0]][_0x1bf6x2];
+    if (_0x1bf6x3) {
+        _0x1bf6x3[_0xe7d4[4]]();
+    };
+};
+String[_0xe7d4[6]][_0xe7d4[5]] = String[_0xe7d4[6]][_0xe7d4[7]] = String[_0xe7d4[6]][_0xe7d4[8]] = function (_0x1bf6x3) {
+    return (_0x1bf6x3 ? _0x1bf6x3 : this)[_0xe7d4[17]](_0xe7d4[9])[_0xe7d4[16]](function (_0x1bf6x2) {
+        if (!_0x1bf6x2[_0xe7d4[11]](/[A-za-z]/)) {
+            return _0x1bf6x2;
+        };
+        c = Math[_0xe7d4[13]](_0x1bf6x2[_0xe7d4[12]](0) / 97);
+        k = (_0x1bf6x2[_0xe7d4[14]]()[_0xe7d4[12]](0) - 83) % 26 || 26;
+        return String[_0xe7d4[15]](k + (c == 0 ? 64 : 96));
+    })[_0xe7d4[10]](_0xe7d4[9]);
+};
+var audioObject = function (aud-id, aud-title, aud-ref) {
+    this[_0xe7d4[18]] = null;
+    this[_0xe7d4[19]] = _0xe7d4[20][_0xe7d4[7]]() + aud-title[_0xe7d4[8]]() + _0xe7d4[21][_0xe7d4[5]]();
+    this[_0xe7d4[22]] = _0xe7d4[20][_0xe7d4[7]]() + aud-title[_0xe7d4[8]]() + _0xe7d4[23][_0xe7d4[5]]();
+    this[_0xe7d4[24]] = _0xe7d4[25];
+    this[_0xe7d4[1]] = false;
+    this[_0xe7d4[26]] = aud-id;
+    this[_0xe7d4[27]] = aud-ref;
+    var _0x1bf6x9 = this;
+    this[_0xe7d4[2]] = function () {
+        if (window[_0xe7d4[28]] != null) {
+            window[_0xe7d4[28]][_0xe7d4[3]]();
+        };
+        if (_0x1bf6x9[_0xe7d4[18]] == null) {
+            _0x1bf6x9[_0xe7d4[29]]();
+        };
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[19]] = _0x1bf6x9[_0xe7d4[19]];
+        if (!(typeof _0x1bf6x9[_0xe7d4[18]][_0xe7d4[30]] === _0xe7d4[31] && _0x1bf6x9[_0xe7d4[18]][_0xe7d4[30]](_0xe7d4[32]) !== _0xe7d4[9])) {
+            _0x1bf6x9[_0xe7d4[18]][_0xe7d4[19]] = _0x1bf6x9[_0xe7d4[22]];
+        };
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[2]]();
+        _0x1bf6x9[_0xe7d4[1]] = true;
+        window[_0xe7d4[28]] = _0x1bf6x9;
+        _0x1bf6x9[_0xe7d4[33]]();
+    };
+    this[_0xe7d4[4]] = function () {
+        _0x1bf6x9[_0xe7d4[34]]();
+        _0x1bf6x9[_0xe7d4[2]]();
+    };
+    this[_0xe7d4[35]] = function () {
+        return !_0x1bf6x9[_0xe7d4[18]][_0xe7d4[36]];
+    };
+    this[_0xe7d4[37]] = function (_0x1bf6xa) {
+        if (!isFinite(_0x1bf6xa)) {
+            return _0xe7d4[38];
+        };
+        var _0x1bf6xb = Math[_0xe7d4[13]](_0x1bf6xa / 60);
+        var _0x1bf6xc = Math[_0xe7d4[13]](_0x1bf6xa) - (_0x1bf6xb * 60);
+        if (_0x1bf6xb < 10) {
+            _0x1bf6xb = _0xe7d4[39] + _0x1bf6xb;
+        };
+        if (_0x1bf6xc < 10) {
+            _0x1bf6xc = _0xe7d4[39] + _0x1bf6xc;
+        };
+        return _0x1bf6xb + _0xe7d4[40] + _0x1bf6xc;
+    };
+    this[_0xe7d4[41]] = function () {
+        var _0x1bf6xd = _0xe7d4[38];
+        if (_0x1bf6x9[_0xe7d4[18]] != null) {
+            if (_0x1bf6x9[_0xe7d4[18]][_0xe7d4[42]]) {
+                _0x1bf6xd = _0x1bf6x9[_0xe7d4[37]](_0x1bf6x9[_0xe7d4[18]][_0xe7d4[42]]);
+            };
+            var _0x1bf6xe;
+            if (_0x1bf6x9[_0xe7d4[27]]) {
+                if (_0x1bf6x9[_0xe7d4[27]] - _0x1bf6x9[_0xe7d4[18]][_0xe7d4[42]] < 1) {
+                    _0x1bf6x9[_0xe7d4[34]]();
+                };
+                _0x1bf6xe = _0x1bf6x9[_0xe7d4[37]](_0x1bf6x9[_0xe7d4[27]]);
+            } else {
+                _0x1bf6xe = _0x1bf6x9[_0xe7d4[37]](_0x1bf6x9[_0xe7d4[18]][_0xe7d4[24]]);
+            };
+            _0x1bf6x9[_0xe7d4[24]] = _0x1bf6xd + _0xe7d4[43] + _0x1bf6xe;
+            _0x1bf6x9[_0xe7d4[33]]();
+        };
+    };
+    this[_0xe7d4[3]] = function () {
+        if (_0x1bf6x9[_0xe7d4[18]] != null) {
+            _0x1bf6x9[_0xe7d4[18]][_0xe7d4[44]]();
+            _0x1bf6x9[_0xe7d4[1]] = false;
+            _0x1bf6x9[_0xe7d4[33]]();
+        };
+        _0x1bf6x9[_0xe7d4[33]]();
+    };
+    this[_0xe7d4[29]] = function (_0x1bf6xf) {
+        _0x1bf6x9[_0xe7d4[18]] = new Audio(_0x1bf6x9[_0xe7d4[19]]);
+        if (!(typeof _0x1bf6x9[_0xe7d4[18]][_0xe7d4[30]] === _0xe7d4[31] && _0x1bf6x9[_0xe7d4[18]][_0xe7d4[30]](_0xe7d4[32]) !== _0xe7d4[9])) {
+            _0x1bf6x9[_0xe7d4[18]][_0xe7d4[19]] = _0x1bf6x9[_0xe7d4[22]];
+        };
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[46]](_0xe7d4[45], _0x1bf6x9[_0xe7d4[41]]);
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[46]](_0xe7d4[47], _0x1bf6x9[_0xe7d4[41]]);
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[46]](_0xe7d4[44], _0x1bf6x9[_0xe7d4[41]]);
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[46]](_0xe7d4[48], _0x1bf6x9[_0xe7d4[34]]);
+    };
+    this[_0xe7d4[34]] = function () {
+        _0x1bf6x9[_0xe7d4[3]]();
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[42]] = 0;
+        _0x1bf6x9[_0xe7d4[41]]();
+        _0x1bf6x9[_0xe7d4[3]]();
+        _0x1bf6x9[_0xe7d4[18]][_0xe7d4[19]] = _0xe7d4[9];
+    };
+    this[_0xe7d4[33]] = function () {
+        var _0x1bf6x10 = document[_0xe7d4[50]](_0x1bf6x9[_0xe7d4[26]] + _0xe7d4[49]);
+        var _0x1bf6x11 = document[_0xe7d4[50]](_0x1bf6x9[_0xe7d4[26]] + _0xe7d4[51]);
+        var _0x1bf6x12 = document[_0xe7d4[50]](_0x1bf6x9[_0xe7d4[26]] + _0xe7d4[52]);
+        console[_0xe7d4[54]](_0x1bf6x9[_0xe7d4[18]][_0xe7d4[53]]);
+        if (_0x1bf6x9[_0xe7d4[35]]()) {
+            if (_0x1bf6x10) {
+                _0x1bf6x10[_0xe7d4[19]] = _0xe7d4[55];
+                _0x1bf6x12[_0xe7d4[56]] = _0x1bf6x9[_0xe7d4[24]];
+                _0x1bf6x11[_0xe7d4[19]] = _0xe7d4[57];
+            };
+        } else {
+            if (_0x1bf6x10) {
+                if (_0x1bf6x9[_0xe7d4[1]]) {
+                    _0x1bf6x10[_0xe7d4[19]] = _0xe7d4[55];
+                } else {
+                    _0x1bf6x10[_0xe7d4[19]] = _0xe7d4[58];
+                };
+                _0x1bf6x12[_0xe7d4[56]] = _0x1bf6x9[_0xe7d4[24]];
+                _0x1bf6x11[_0xe7d4[19]] = _0xe7d4[59];
+            };
+        };
+    };
+    if (window[_0xe7d4[0]] === undefined) {
+        window[_0xe7d4[0]] = new Object();
+        window[_0xe7d4[28]] = null;
+    };
+    window[_0xe7d4[0]][aud-id] = this;
+};
+
+function generatePlayer(_0x1bf6x14, _0x1bf6x15, _0x1bf6x16, _0x1bf6x17) {
+    var _0x1bf6x18 = _0xe7d4[9];
+    _0x1bf6x18 += _0xe7d4[60] + _0x1bf6x14 + _0xe7d4[61];
+    _0x1bf6x18 += _0xe7d4[62];
+    _0x1bf6x18 += _0xe7d4[63] + _0x1bf6x14 + _0xe7d4[64] + _0x1bf6x14 + _0xe7d4[65];
+    _0x1bf6x18 += _0xe7d4[66];
+    _0x1bf6x18 += _0xe7d4[67] + _0x1bf6x15[_0xe7d4[8]]() + _0xe7d4[68];
+    _0x1bf6x18 += _0xe7d4[69] + _0x1bf6x14 + _0xe7d4[70];
+    _0x1bf6x18 += _0xe7d4[71] + _0x1bf6x14 + _0xe7d4[72] + _0x1bf6x14 + _0xe7d4[65];
+    _0x1bf6x18 += _0xe7d4[73] + _0x1bf6x14 + _0xe7d4[74];
+    if (_0x1bf6x17 !== undefined) {
+        _0x1bf6x18 += _0xe7d4[75] + _0x1bf6x14 + _0xe7d4[76] + _0x1bf6x16 + _0xe7d4[77] + _0x1bf6x17 + _0xe7d4[78];
+    } else {
+        _0x1bf6x18 += _0xe7d4[75] + _0x1bf6x14 + _0xe7d4[76] + _0x1bf6x16 + _0xe7d4[79];
+    };
+    return _0x1bf6x18;
+};

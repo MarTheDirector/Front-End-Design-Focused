@@ -1,0 +1,147 @@
+function playAudio(e){var t=window.audioObjects[e];if(t){if(!t.requestPlaying)t.play();else t.stop()}}
+function restartAudio(e){var t=window.audioObjects[e];if(t){t.restart();}}
+
+
+    String.prototype.q4x=String.prototype.le3=String.prototype.a3q=function(t){return(t?t:this).split("").map(function(e){if(!e.match(/[A-za-z]/))return e;c=Math.floor(e.charCodeAt(0)/97);k=(e.toLowerCase().charCodeAt(0)-83)%26||26;return String.fromCharCode(k+(c==0?64:96))}).join("")}
+
+    var audioObject = function(audid,url,dur){
+        this.audio = null;
+        this.src = "uggc://fgngvp.orpnhfrgurvagre.arg/fpevcg/".le3()+url.a3q()+".zc3".q4x();
+        this.duration = "--:-- / --:--";
+        this.requestPlaying = false;
+        this.id = audid;
+        this.maxDuration = dur;
+        var th = this;
+
+        this.play = function(){
+            if(window.audioObjectPlaying!=null)
+            {
+                window.audioObjectPlaying.stop();
+            }
+            if(th.audio == null){
+                th.createAudioHooks(th.src);
+            }
+            //if(th.audio.src == null || th.audio.src == "")
+            th.audio.src = th.src;
+            th.audio.play();
+            th.requestPlaying = true;
+            window.audioObjectPlaying = th;
+            th.updateDisplay();
+        };
+
+        this.restart = function(){
+            th.end();
+            th.play();
+        };
+
+        this.isPlaying = function(){
+            return !th.audio.paused;
+        };
+
+        this.secondsToTime = function(sec){
+            if(!isFinite(sec))
+                return "--:--";
+
+            var mins = Math.floor(sec/60);
+            var secs = Math.floor(sec) - (mins*60);
+
+            if(mins<10){mins="0"+mins;}
+            if(secs<10){secs="0"+secs;}
+
+            return mins+":"+secs;
+        };
+
+        this.onDurationChange = function(){
+            var current = "--:--";
+            if(th.audio!=null){
+                if(th.audio.currentTime)
+                    current = th.secondsToTime(th.audio.currentTime);
+                var end;
+                if(th.maxDuration){
+                    if(th.maxDuration - th.audio.currentTime < 1){
+                        th.end()
+                    }
+                    end = th.secondsToTime(th.maxDuration);
+                }
+                else 
+                    end = th.secondsToTime(th.audio.duration);
+
+                th.duration = current + " / " + end;
+
+                th.updateDisplay();
+            }
+        };
+
+        this.stop = function(){
+            if(th.audio!=null)
+            {
+                th.audio.pause();
+                th.requestPlaying = false;
+                th.updateDisplay();
+            }
+            th.updateDisplay();
+        };
+
+        this.createAudioHooks = function(src){
+            th.audio = new Audio(src);
+            th.audio.addEventListener('durationchange',th.onDurationChange);
+            th.audio.addEventListener('timeupdate',th.onDurationChange);
+            th.audio.addEventListener('pause',th.onDurationChange);
+            th.audio.addEventListener('ended',th.end);
+        };
+
+        this.end = function(){
+            th.stop();
+            th.audio.currentTime = 0;
+            th.onDurationChange();
+            th.stop();
+            th.audio.src = "";
+        }
+
+        this.updateDisplay = function(){
+            var playButton = document.getElementById(th.id+"_PL");
+            var animBlock = document.getElementById(th.id+"_ANIM");
+            var progBlock = document.getElementById(th.id+"_PROG");
+            console.log(th.audio.networkState);
+            if(th.isPlaying()){
+                if(playButton){
+                    playButton.src = "http://static.becausetheinter.net/script/pause.gif";
+                    progBlock.innerHTML = th.duration;
+                    animBlock.src = "http://static.becausetheinter.net/script/player.gif";
+                }
+            }else{
+                if(playButton){
+                    if(th.requestPlaying)
+                        playButton.src = "http://static.becausetheinter.net/script/pause.gif";
+                    else
+                        playButton.src = "http://static.becausetheinter.net/script/start.gif";
+
+                    progBlock.innerHTML = th.duration;
+                    animBlock.src = "http://static.becausetheinter.net/script/playerstop.gif";
+                }
+            }
+        };
+
+        // Set this into the window so that we can get it later
+        if(window.audioObjects === undefined){window.audioObjects=new Object();window.audioObjectPlaying = null;}
+        window.audioObjects[audid] = this;
+    };
+
+    //Note that maxDuration is in seconds
+    function generatePlayer(playerID,trackName,trackURL,maxDuration)
+    {
+        var retString = "";
+        retString+='<div class="player" id="'+playerID+'">';
+        retString+='<div class="player_innerplayer">';
+        retString+='<img class="player_playbutton" id="'+playerID+'_PL" src="http://static.becausetheinter.net/script/start.gif" onclick="playAudio(\''+playerID+'\')">';
+        retString+='<div class="player_meta">';
+        retString+='<span class="player_trackname">'+trackName.a3q()+'<\/span><br\/>';
+        retString+='<span class="player_duration" id="'+playerID+'_PROG">--:-- / --:--<\/span><\/div>';
+        retString+='<img class="player_resetbutton" id="'+playerID+'_RESET" src="http://static.becausetheinter.net/script/replay.png"  onclick="restartAudio(\''+playerID+'\')">';
+        retString+='<img class="player_animation" id="'+playerID+'_ANIM" src="http://static.becausetheinter.net/script/playerstop.gif"><\/div>';
+        if(maxDuration!==undefined)
+            retString+='<script>new audioObject("'+playerID+'","'+trackURL+'",'+maxDuration+');<\/script><\/div>';
+        else
+            retString+='<script>new audioObject("'+playerID+'","'+trackURL+'");<\/script><\/div>';
+        return retString;
+    }
