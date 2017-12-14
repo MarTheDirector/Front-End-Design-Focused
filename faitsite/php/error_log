@@ -1,0 +1,215 @@
+[12-Feb-2015 05:20:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:19
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 19
+[12-Feb-2015 05:42:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mrcs_nesbitt@yahoo.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 05:52:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mrcs_nesbitt@yahoo.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:04:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:07:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:09:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:10:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:10:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:46:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:47:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:47:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:50:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:51:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:54:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:55:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 06:57:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:00:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:01:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:02:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:02:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:03:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:04:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:04:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:05:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:05:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:05:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:06:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:09:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:10:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:11:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:13:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:13:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:13:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:13:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:14:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:14:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:14:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:15:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:15:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 07:15:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[12-Feb-2015 08:07:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Test@gmail.com' for key 'PRIMARY'' in /home/adventuresofmar/public_html/php/email.php:29
+Stack trace:
+#0 /home/adventuresofmar/public_html/php/email.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/adventuresofmar/public_html/php/email.php on line 29
+[22-Feb-2015 23:56:23 UTC] PHP Parse error:  syntax error, unexpected 'small' (T_STRING), expecting ',' or ';' in /home/adventuresofmar/public_html/php/send.php on line 26
+[23-Feb-2015 12:11:00 UTC] PHP Fatal error:  Call to undefined function sendMail() in /home/adventuresofmar/public_html/php/email.php on line 25
+[25-Feb-2015 00:49:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/adventuresofmar/public_html/php/send.php:2) in /home/adventuresofmar/public_html/php/email.php on line 7
+[26-Feb-2015 00:54:25 UTC] PHP Notice:  Use of undefined constant no - assumed 'no' in /home/adventuresofmar/public_html/php/email.php on line 15
+[26-Feb-2015 00:55:23 UTC] PHP Notice:  Use of undefined constant no - assumed 'no' in /home/adventuresofmar/public_html/php/email.php on line 15
